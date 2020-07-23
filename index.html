@@ -5,24 +5,14 @@
     <body>
         
         <script>
-            var nome = "Leonardo"; //string
-            var idade = 28; //inteiro
-            var peso = 72.5; //float
-            var humano = true; //boolean
+            function soma(numero1, numero2) {
+                var resultado = numero1 + numero2;
+                return resultado;
+            }
 
-            var alunos = ['Diego', 'Lucas', 'Gabriel']; //array
-
-            //objeto
-            var aluno = {
-                nome: alunos[0],
-                idade: 28,
-                peso: 72.5,
-                humano: true            
-            };
-
-            //exibiri informações no console
-            console.log(alunos[1]);
-            console.log(aluno.nome);
+            var resultado = soma(1, 2);
+            console.log(resultado);
+            
 
         </script>
     </body>
